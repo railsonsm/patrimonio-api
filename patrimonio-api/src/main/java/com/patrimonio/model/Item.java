@@ -21,7 +21,7 @@ public class Item {
 	@NotEmpty
 	private String descricao;
 
-	private LocalDate dataAquisicao;
+	private LocalDate data_aquisicao;
 
 	public Long getId() {
 		return id;
@@ -47,12 +47,14 @@ public class Item {
 		this.descricao = descricao;
 	}
 
-	public LocalDate getDataAquisicao() {
-		return dataAquisicao;
+	
+
+	public LocalDate getData_aquisicao() {
+		return data_aquisicao;
 	}
 
-	public void setDataAquisicao(LocalDate dataAquisicao) {
-		this.dataAquisicao = dataAquisicao;
+	public void setData_aquisicao(LocalDate data_aquisicao) {
+		this.data_aquisicao = data_aquisicao;
 	}
 
 	@Override
